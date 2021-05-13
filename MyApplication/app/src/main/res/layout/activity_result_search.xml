@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultSearch">
+
+    <TextView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/text_list"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:background="@drawable/settings_button"
+        android:gravity="center"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/connect_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_connect_button"
+        android:layout_below="@id/list"
+        android:layout_marginTop="sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        android:background="@drawable/search_button"
+        android:layout_marginHorizontal="15sp"
+        />
+
+</RelativeLayout>

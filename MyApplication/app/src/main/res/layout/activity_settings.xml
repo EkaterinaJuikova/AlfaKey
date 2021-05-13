@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings">
+    <TextView
+        android:id="@+id/setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/text_setting"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:background="@drawable/settings_button"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/cur_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setting"
+        android:layout_marginHorizontal="30sp"
+        android:layout_marginTop="30sp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/text_cur_distance"
+        android:textColor="@color/gray"
+        android:textSize="16sp" />
+    <RelativeLayout
+        android:id="@+id/set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cur_distance"
+        android:layout_marginTop="30sp"
+        android:background="@color/nogray">
+        <TextView
+            android:id="@+id/blocking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30sp"
+            android:layout_marginTop="25sp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/text_blocking"
+            android:textColor="@color/gray"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/describe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30sp"
+            android:layout_marginTop="55sp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/text_describe"
+            android:textColor="@color/gray60"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30sp"
+            android:layout_marginTop="100sp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/text_time"
+            android:textColor="@color/gray"
+            android:textSize="16sp" />
+
+        <SeekBar
+            android:id="@+id/time_Bar"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130sp"
+            android:layout_marginHorizontal="30sp"
+            android:max="30"
+            android:progress="1" />
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30sp"
+            android:layout_marginTop="175sp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/text_distance"
+            android:textColor="@color/gray"
+            android:textSize="16sp" />
+
+        <SeekBar
+            android:id="@+id/distance_Bar"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="205sp"
+            android:layout_marginHorizontal="30sp"
+            android:max="20"
+            android:progress="5" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_save_button"
+        android:layout_below="@id/set"
+        android:layout_marginTop="220sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        android:background="@drawable/search_button"
+        android:layout_marginHorizontal="15sp"
+        />
+
+
+</RelativeLayout>

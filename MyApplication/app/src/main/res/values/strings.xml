@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="text_header">Вход</string>
+    <string name="text_login">Логин</string>
+    <string name="text_password">Пароль</string>
+    <string name="text_login_button">Войти</string>
+    <string name="text_header2">Alfa Key</string>
+    <string name="text_search_button">Поиск устройств</string>
+    <string name="text_settings_button">Настройки</string>
+    <string name="text_cur_distance">Текущее расстояние до устройства:</string>
+    <string name="text_blocking">Блокировка</string>
+    <string name="text_describe">Установка дистанции и промежутка времени</string>
+    <string name="text_time">Время</string>
+    <string name="text_distance">Дистанция</string>
+    <string name="text_save_button">Сохранить</string>
+    <string name="text_setting">Настройки</string>
+    <string name="text_list">Список устройств</string>
+    <string name="text_connect_button">Подключиться</string>
+
+
+
+</resources>
